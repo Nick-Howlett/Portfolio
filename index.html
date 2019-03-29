@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Spectral by HTML5 UP</title>
+		<title>Nick Howlett</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -31,13 +31,14 @@
 							</div>
 							<nav>
 								<ul class='actions-special'>
-									<li><a href="#about">About</a></li>
-									<li><a href="#projects">Projects</a></li>
-									<li><a href="#skills">Skills</a></li>
-									<li><a href="#contact">Contact</a></li>
+									<li><a href="#about" class="more scrolly">About</a></li>
+									<li><a href="#projects" class="more scrolly">Projects</a></li>
+									<li><a href="#skills" class="more scrolly">Skills</a></li>
+									<li><a href="#contact" class="more scrolly">Contact</a></li>
 									<!--<li><a href="#elements">Elements</a></li>-->
 								</ul>
 							</nav>
+							<button class="button-primary"><a id="resume" href="Resume.pdf">Resume</a></button>
 						</header>
 
 				</div>
@@ -45,19 +46,17 @@
 					
 				</div>
 
-				<section id="about" class="wrapper alt style2">
+				<section id="about" class="wrapper alt style2 ">
 					<section class="spotlight">
-						<div class="image fit">
-							<div class="circle">
+						<div class="image fit profile">
 								<img src="images/profile.jpg" alt="Picture of Nick"/>
-							</div>
 						</div>
 						<div class="content">
 							<header>
 								<h1>About</h1>
 							</header>
-							<p>I'm a dedicated bay area based software developer a relentless drive to create and a particular fondness for low-level systems. I'm skilled in JavaScript, Ruby on Rails,
-								C, Python, React and Redux. 
+							<p>I'm a dedicated bay area based software developer with a relentless drive to create and a particular fondness for low-level systems. I'm skilled in JavaScript, Ruby on Rails,
+								C, Python, React and Redux. In my free time I enjoy hiking, reading, and board games.
 							</p>
 						</div>
 					</section>
@@ -66,7 +65,9 @@
 				<!-- Two -->
 
 				<section id="projects" class="wrapper special style2">
-						<h1>Projects</h1>
+						<header class="major">
+							<h2>Projects</h2>
+						</header>
 					<section class="spotlight">
 						<div class="image"><img src="images/sherwood.png" alt="Screenshot of Sherwood's profile page" /></div><div class="content">
 							<h2>Sherwood</h2>
@@ -115,21 +116,36 @@
 								</div>
 							</section>
 
+					
 
 				<!-- Footer -->
-				<section id="contact">
+				<section id="contact" class="wrapper style2 special">
+					<header class="major">
+						<h3>Looking to get in touch?</h3>
+						<p>Email me at <a href="mailto:nick@nhowlett.com">nick@nhowlett.com</a> or use the form below!</p>
+					</header>
+					<section id="form">
+							<form action="https://formspree.io/nick@nhowlett.com" method="POST" />
+							<input type="text" name="name" placeholder="Name">
+							<input type="text" name="email" placeholder="Email">
+							<textarea height="20em" name=message placeholder="Message"></textarea>
+							<input type="submit" value="Send Message">
+						</form>
+					</article>
+
+
+				</section>
 					<footer id="footer">
 						<ul class="icons fa">
 							<li><a href="https://github.com/Nick-Howlett" class="icon fa-github"><span class="label">GitHub</span></a></li>
 							<li><a href="https://www.linkedin.com/in/nick-howlett/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="https://angel.co/nick-howlett-1?al_content=view+your+profile&al_source=transaction_feed%2Fnetwork_sidebar" class="icon fa-angellist"><span class="label">AngelList</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							<li><a href="mailto:nick@nhowlett.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
 							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
-				</section>
 
 			</div>
 	

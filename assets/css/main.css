@@ -1892,8 +1892,13 @@ input, select, textarea {
 		height: 2.75em;
 	}
 
+	#resume{
+		border-bottom: none;
+	}
+
 	textarea {
 		padding: 0.75em 1em;
+		height: 10em;
 	}
 
 	input[type="checkbox"],
@@ -2116,6 +2121,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
 /* List */
 
 	ol {
@@ -2278,6 +2284,7 @@ input, select, textarea {
 						}
 
 		}
+
 
 /* Icons */
 
@@ -3585,6 +3592,7 @@ ul.icons {
 	background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 	max-width: 100%;
 	text-align: center;
+	color: white;
 }
 
 	#header > * {
@@ -3635,6 +3643,7 @@ ul.icons {
 		border-top-width: 1px;
 		border-bottom-width: 1px;
 		max-width: 100%;
+		color: white;
 	}
 
 		#header .content .inner {
@@ -3661,6 +3670,7 @@ ul.icons {
 			letter-spacing: 0.2em;
 			font-size: 0.8em;
 			line-height: 2;
+			color: white;
 		}
 
 	#header nav ul {
@@ -3671,13 +3681,13 @@ ul.icons {
 		margin-bottom: 0;
 		list-style: none;
 		padding-left: 0;
-		border: solid 1px #ffffff;
+		border: solid 1px white;
 		border-radius: 4px;
 	}
 
 		#header nav ul li {
 			padding-left: 0;
-			border-left: solid 1px #ffffff;
+			border-left: solid 1px white;
 		}
 
 			#header nav ul li:first-child {
@@ -3828,6 +3838,29 @@ ul.icons {
 			}
 
 	}
+
+#form{
+	width: 50%;
+	margin: 0 auto;
+}
+
+#form input[type='submit']{
+	margin-top: 4rem;
+	
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #2E3842;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #2E3842;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #2E3842;
+}
 /* CTA */
 
 	#cta .inner {
@@ -4070,4 +4103,12 @@ ul.icons {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+	
+	.image.profile{
+		margin: 4rem 5rem 4rem 15rem;
+		border-radius: .5rem;
+		overflow: hidden;
+		width: 15%;
 	}
