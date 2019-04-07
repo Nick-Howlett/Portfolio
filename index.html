@@ -110,15 +110,15 @@
 									<header class="major">
 										<h2>Skills</h2>
 									</header>
-									<ul class="icons major">
-										<li><span class="icon major devicon-javascript-plain colored"><span class="label">JavaScript</span></span></li>
-										<li><span class="icon major devicon-rails-plain-wordmark colored"><span class="label">Ruby on Rails</span></span></li>
-										<li><span class="icon major devicon-c-plain colored"><span class="label">C</span></span></li>
-										<li><span class="icon major devicon-python-plain-wordmark colored"><span class="label">Python</span></span></li>
-										<li><span class="icon major devicon-react-plain-wordmark colored"><span class="label">React</span></span></li>
-										<li><span class="icon major devicon-postgresql-plain-wordmark colored"><span class="label">React</span></span></li>
-										<li><span class="icon major devicon-html5-plain-wordmark colored"><span class="label">HTML5</span></span></li>
-										<li><span class="icon major devicon-css3-plain-wordmark colored"><span class="label">Css</span></span></li>
+									<div class="row gtr-uniform">
+										<div class="col-3"><span class="icon major devicon-javascript-plain colored"><span class="label">JavaScript</span></span></div>
+										<div class="col-3"><span class="icon major devicon-rails-plain-wordmark colored"><span class="label">Ruby on Rails</span></span></div>
+										<div class="col-3"><span class="icon major devicon-c-plain colored"><span class="label">C</span></span></div>
+										<div class="col-3"><span class="icon major devicon-python-plain-wordmark colored"><span class="label">Python</span></span></div>
+										<div class="col-3"><span class="icon major devicon-react-plain-wordmark colored"><span class="label">React</span></span></div>
+										<div class="col-3"><span class="icon major devicon-postgresql-plain-wordmark colored"><span class="label">React</span></span></div>
+										<div class="col-3"><span class="icon major devicon-html5-plain-wordmark colored"><span class="label">HTML5</span></span></div>
+										<div class="col-3"><span class="icon major devicon-css3-plain-wordmark colored"><span class="label">Css</span></span></div>
 									</ul>
 								</div>
 							</section>
@@ -133,10 +133,12 @@
 					</header>
 					<section id="form">
 						<form name="contact" method="POST" data-netlify="true">
-							<input type="text" name="name" placeholder="Name">
-							<input type="text" name="email" placeholder="Email">
-							<textarea height="20em" name=message placeholder="Message"></textarea>
-							<input type="submit" value="Send Message">
+							<div class="row gtr-uniform">
+									<div class="col-6 col-12-xsmall"><input type="text" name="name" placeholder="Name"></div>
+									<div class="col-6 col-12-xsmall"><input type="text" name="email" placeholder="Email"></div>
+									<div class="col-12"><textarea height="20em" name=message placeholder="Message"></textarea></div>
+									<div class="col-12"><input type="submit" value="Send Message"></div>
+							</div>
 						</form>
 					</article>
 
