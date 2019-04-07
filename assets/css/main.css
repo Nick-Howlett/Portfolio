@@ -4105,10 +4105,16 @@ ul.icons {
 		background-color: #1d242a;
 	}
 
-	
-	.image.profile{
-		margin: 4rem 5rem 4rem 15rem;
-		border-radius: .5rem;
-		overflow: hidden;
-		width: 15%;
-	}
+
+#about{
+	display: flex;
+	justify-content: center;
+}
+
+.profile{
+	width: 50%;
+}
+
+#projects{
+	padding-top: 1rem;
+}
