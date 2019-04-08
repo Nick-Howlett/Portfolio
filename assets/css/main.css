@@ -2098,7 +2098,7 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 2em 2em 0;
+			margin: 0 1.5em 0 0;
 			top: 0.25em;
 		}
 
@@ -4122,6 +4122,11 @@ ul.icons {
 
 .profile{
 	width: 50%;
+	text-align: left;
+}
+
+.profile h1{
+	text-align: center;
 }
 
 #projects{
