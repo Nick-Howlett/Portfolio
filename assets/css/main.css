@@ -4121,9 +4121,23 @@ ul.icons {
 }
 
 .profile{
-	width: 50%;
 	text-align: left;
+	width: 100%;
 }
+
+@media screen and (min-width: 1680px){
+	.profile{
+		width: 50%;
+	}
+}
+
+
+@media screen and (min-width: 1280px){
+	.profile{
+		width: 50%;
+	}
+}
+
 
 .profile h1{
 	text-align: center;
