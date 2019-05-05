@@ -3640,6 +3640,7 @@ ul.icons {
 		line-height: 5.5rem;
 		border: solid 1px #ffffff;
 		border-radius: 100%;
+		overflow: hidden;
 	}
 
 		#header .logo .icon:before {
